@@ -28,7 +28,7 @@ class Page {
 
         //Practica 5
         this.link5 = Selector('a').withText('Inputs')
-        this.input51 = Selector('#content #content > div > div > div > input[type=number]');
+        this.input51 = Selector('#content #content > div > div > div > input[type=number]')
 
         //Practica 6
         this.link6 = Selector('a').withText('Add/Remove Elements');
