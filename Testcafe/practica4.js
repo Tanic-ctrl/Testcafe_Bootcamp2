@@ -21,10 +21,10 @@ test('Probar checkboxes y seleccionados', async t => {
         .click(page.link4)
 
     await t
-        .click(page.baseCheckbox.nth(1))
+        .click(page.baseCheckbox.nth(0))
 
-    await t.expect(page.baseCheckbox.nth(0).checked).notOk()
-    await t.expect(page.baseCheckbox.nth(1).checked).notOk()
+    await t.expect(page.baseCheckbox.nth(0).checked).Ok()
+    await t.expect(page.baseCheckbox.nth(1).checked).Ok()
         //await t.expect(page.checkbox42.checked).notOk()
 
 })
