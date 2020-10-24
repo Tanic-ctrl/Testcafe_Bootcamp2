@@ -64,6 +64,17 @@ class Page {
         this.link10 = Selector('a').withText('Context Menu');
         this.hotspot101 = Selector('#hot-spot');
 
+        //Practica 11
+        this.link11 = Selector('a').withText('Horizontal Slider');
+        this.slider111 = Selector('#content > div > div > input[type=range]');
+
+        //Practica 12
+        //#Slider
+        this.slider = {
+            handle: Selector('.ui-slider-handle'),
+            value: Selector('.slider-value')
+        };
+
     }
 }
 export default new Page();
