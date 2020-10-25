@@ -8,7 +8,9 @@ class Page {
         //Practica 2, mejor práctica
         this.link2 = Selector('a').withText('A/B Testing');
         //this.text21 = Selector('h3').with('A/B Test Control')
-        this.text21 = Selector('#content > div > h3');
+        //this.text21 = Selector('#content > div > h3');
+        this.text21 = Selector('h3').innerText;
+        //const abText = Selector('h3')
 
         //Practica 3, Forgot password
         this.link3 = Selector('a').withText('Forgot Password');
@@ -24,13 +26,12 @@ class Page {
         this.baseCheckbox = Selector('#checkboxes > input[type=checkbox]');
 
         //Checkboxs Hijos
-        //this.checkbox41 = Selector('#checkboxes > input[type=checkbox]:nth-child(1)');
+        //this.checkbox41 = Selector('#checkboxes > input[type=checkbox]:nth-child(1)'); 
         this.checkbox42 = Selector('#checkboxes > input[type=checkbox]:nth-child(3)');
 
         //Practica 5
         this.link5 = Selector('a').withText('Inputs');
         this.input51 = Selector('#content > div > div > div > input[type=number]');
-
 
         //Practica 6
         this.link6 = Selector('a').withText('Add/Remove Elements');
