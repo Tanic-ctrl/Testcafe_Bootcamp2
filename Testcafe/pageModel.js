@@ -15,6 +15,7 @@ class Page {
         this.input31 = Selector('#email');
         this.button32 = Selector('#form_submit');
         this.text33 = Selector('#content');
+        this.output34 = Selector('body > h1');
 
         //Práctica 4, checkboxes
         this.link4 = Selector('a').withText('Checkboxes');
@@ -28,7 +29,8 @@ class Page {
 
         //Practica 5
         this.link5 = Selector('a').withText('Inputs');
-        this.input51 = Selector('#content #content > div > div > div > input[type=number]');
+        this.input51 = Selector('#content > div > div > div > input[type=number]');
+
 
         //Practica 6
         this.link6 = Selector('a').withText('Add/Remove Elements');
