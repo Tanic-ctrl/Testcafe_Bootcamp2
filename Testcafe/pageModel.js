@@ -36,9 +36,18 @@ class Page {
         //Practica 6
         this.link6 = Selector('a').withText('Add/Remove Elements');
         this.addBtn61 = Selector('#content > div > button');
+        this.removeBtn61 = Selector('#elements > button:nth-child(1)');
         this.removeBtn62 = Selector('#elements > button:nth-child(2)');
         this.removeBtn63 = Selector('#elements > button:nth-child(3)');
         this.removeBtn64 = Selector('#elements > button:nth-child(4)');
+        this.removeBtn65 = Selector('#elements > button:nth-child(5)');
+        this.removeBtn66 = Selector('#elements > button:nth-child(6)');
+        this.removeBtn67 = Selector('#elements > button:nth-child(7)');
+        this.removeBtn68 = Selector('#elements > button:nth-child(8)');
+        this.removeBtn69 = Selector('#elements > button:nth-child(9)');
+        this.removeBtn610 = Selector('#elements > button:nth-child(10)');
+        this.removeBtn611 = Selector('#elements > button:nth-child(11)');
+        this.removeBtn612 = Selector('#elements > button:nth-child(12)');
 
         //Practica 7
         this.input71 = Selector('#first-name');
