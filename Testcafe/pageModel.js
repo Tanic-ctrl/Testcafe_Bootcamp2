@@ -67,6 +67,16 @@ class Page {
         this.text706 = Selector('body > div > div');
 
         //Practica 8
+        this.link8 = Selector('a').withText('Form Authentication');
+        this.input81 = Selector('#username');
+        this.input82 = Selector('#password');
+        this.logBtn83 = Selector('#login > button');
+        this.msgAler84 = Selector('#flash')
+        this.msgAler85 = Selector('#flash')
+        this.text86 = Selector('#content > div > h4')
+        this.logoutBtn861 = Selector('#content > div > a')
+        this.msguserAlert87 = Selector('#flash')
+        this.msgpwdAlert88 = Selector('#flash')
 
         //Practica 9
         this.link9 = Selector('a').withText('Key Presses');
