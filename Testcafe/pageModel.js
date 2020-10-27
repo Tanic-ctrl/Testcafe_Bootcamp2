@@ -90,13 +90,12 @@ class Page {
         this.link11 = Selector('a').withText('Horizontal Slider');
         this.slider111 = Selector('#content > div > div > input[type=range]');
 
-        //Practica 12
-        //#Slider
+        //Practica 12 Slider 1 to 10
+        this.checkbox12 = Selector('#tried-test-cafe');
         this.slider = {
             handle: Selector('.ui-slider-handle'),
             value: Selector('.slider-value')
         };
-
     }
 }
 export default new Page();

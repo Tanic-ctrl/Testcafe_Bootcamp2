@@ -5,9 +5,11 @@ fixture('Práctica 12 con testcafe')
 
 test('Probar mover un slider', async t => {
     await t
-        .click(page.checkboxTried)
-        .expect(page.checkboxTried.checked).ok()
 
-    .dragToElement(page.slider.handle, page.slider.value.withText('9'))
+        .click(page.checkbox12)
+        .expect(page.checkbox12.checked).ok()
+
+    .dragToElement(page.slider.handle, page.slider.value.withText('5'), { speed: 0.1 })
+        .dragToElement(page.slider.handle, page.slider.value.withText('1'), { speed: 0.1 })
 
 })
